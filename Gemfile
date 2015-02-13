@@ -21,5 +21,9 @@ group :development, :test do
   # gem "spring"
   gem "pry-rails"
   gem "binding_of_caller"
+  gem "factory_girl"
+  gem "guard"
+  gem "guard-rspec"
+  gem "rspec-rails"
 end
 
