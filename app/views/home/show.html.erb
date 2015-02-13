@@ -5,3 +5,10 @@
 ログインして下さい
 <p><%= link_to "サインイン", new_user_session_path%></p>
 <% end %>
+
+<div id="calendar"></div>
+<script>
+$(document).ready(function() {
+    $("#calendar").fullCalendar({});
+});
+</script>
