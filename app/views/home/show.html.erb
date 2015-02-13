@@ -1,0 +1,7 @@
+<% if current_user %>
+<%= current_user.inspect %>
+<p><%= link_to "サインアウト", destroy_user_session_path, method: :delete%></p>
+<% else %>
+ログインして下さい
+<p><%= link_to "サインイン", new_user_session_path%></p>
+<% end %>
